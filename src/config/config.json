@@ -1,0 +1,35 @@
+{
+    "development": {
+      "server": {
+        "host": "localhost",
+        "port": 3000
+      },
+      "database": {
+        "db": "mongodb+srv://admin:admin@cluster0.slp4o.mongodb.net/mess?retryWrites=true&w=majority"
+      },
+      "JWTsecret": "MySecretKey",
+      "email": {
+        "auth": {
+          "user": "dummy2003dummy@gmail.com",
+          "pass": "ezfw mcpj lces ghyp"
+        }
+      }
+    },
+    "production": {
+      "server": {
+        "host": "localhost",
+        "port": 80
+      },
+      "database": {
+        "db": "mongodb://127.0.0.1/messdb"
+      },
+      "JWTsecret": "MySecretKey",
+      "email": {
+        "auth": {
+          "user": "dummy2003dummy@gmail.com",
+          "pass": "ezfw mcpj lces ghyp"
+        }
+      }
+    }
+  }
+  
